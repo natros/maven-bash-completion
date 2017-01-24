@@ -173,6 +173,7 @@ _mvn()
     local plugin_goals_scm="scm:add|scm:checkin|scm:checkout|scm:update|scm:status"
     local plugin_goals_site="site:site|site:deploy|site:run|site:stage|site:stage-deploy"
     local plugin_goals_sonar="sonar:sonar|sonar:help"
+    local plugin_goals_sortpom="sortpom:sort|sortpom:verify"
     local plugin_goals_source="source:aggregate|source:jar|source:jar-no-fork"
     local plugin_goals_surefire="surefire:test"
     local plugin_goals_tomcat6="tomcat6:help|tomcat6:run|tomcat6:run-war|tomcat6:run-war-only|tomcat6:stop|tomcat6:deploy|tomcat6:undeploy"
