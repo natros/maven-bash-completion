@@ -176,6 +176,7 @@ _mvn()
     local plugin_goals_sortpom="sortpom:sort|sortpom:verify"
     local plugin_goals_source="source:aggregate|source:jar|source:jar-no-fork"
     local plugin_goals_surefire="surefire:test"
+    local plugin_goals_tidy="tidy:check|tidy:pom"
     local plugin_goals_tomcat6="tomcat6:help|tomcat6:run|tomcat6:run-war|tomcat6:run-war-only|tomcat6:stop|tomcat6:deploy|tomcat6:undeploy"
     local plugin_goals_tomcat7="tomcat7:help|tomcat7:run|tomcat7:run-war|tomcat7:run-war-only|tomcat7:deploy"
     local plugin_goals_tomcat="tomcat:help|tomcat:start|tomcat:stop|tomcat:deploy|tomcat:undeploy"
