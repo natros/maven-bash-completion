@@ -128,7 +128,7 @@ _mvn()
     local common_site_lifecycle="pre-site|site|post-site|site-deploy"
     local common_lifecycle_phases="${common_clean_lifecycle}|${common_default_lifecycle}|${common_site_lifecycle}"
 
-    locak plugin_goals_buildplan="buildplan:list|buildplan:list-phase|buildplan:list-plugin"
+    local plugin_goals_buildplan="buildplan:list|buildplan:list-phase|buildplan:list-plugin"
     local plugin_goals_android="android:apk|android:apklib|android:clean|android:deploy|android:deploy-dependencies|android:dex|android:emulator-start|android:emulator-stop|android:emulator-stop-all|android:generate-sources|android:help|android:instrument|android:manifest-update|android:pull|android:push|android:redeploy|android:run|android:undeploy|android:unpack|android:version-update|android:zipalign|android:devices"
     local plugin_goals_ant="ant:ant|ant:clean"
     local plugin_goals_antrun="antrun:run"
