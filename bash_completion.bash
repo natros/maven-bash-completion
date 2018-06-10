@@ -173,7 +173,7 @@ _mvn()
     local plugin_goals_release="release:clean|release:prepare|release:rollback|release:perform|release:stage|release:branch|release:update-versions"
     local plugin_goals_repository="repository:bundle-create|repository:bundle-pack|repository:help"
     local plugin_goals_scala="scala:add-source|scala:cc|scala:cctest|scala:compile|scala:console|scala:doc|scala:doc-jar|scala:help|scala:run|scala:script|scala:testCompile"
-    local plugin_goals_scm="scm:add|scm:checkin|scm:checkout|scm:update|scm:status"
+    local plugin_goals_scm="scm:add|scm:bootstrap|scm:branch|scm:changelog|scm:check-local-modification|scm:checkin|scm:checkout|scm:diff|scm:edit|scm:export|scm:help|scm:list|scm:remove|scm:status|scm:tag|scm:unedit|scm:update|scm:update-subprojects|scm:validate|scm:validate-recursively"
     local plugin_goals_site="site:site|site:deploy|site:run|site:stage|site:stage-deploy"
     local plugin_goals_sonar="sonar:sonar|sonar:help"
     local plugin_goals_sortpom="sortpom:sort|sortpom:verify"
