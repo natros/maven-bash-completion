@@ -150,6 +150,7 @@ _mvn()
     local plugin_goals_failsafe="failsafe:integration-test|failsafe:verify"
     local plugin_goals_findbugs="findbugs:findbugs|findbugs:gui|findbugs:help"
     local plugin_goals_flyway="flyway:migrate|flyway:clean|flyway:info|flyway:validate|flyway:baseline|flyway:repair"
+    local plugin_goals_gitflow="gitflow:feature-finish|gitflow:feature-start|gitflow:help|gitflow:hotfix-finish|gitflow:hotfix-start|gitflow:release|gitflow:release-finish|gitflow:release-start|gitflow:support-start"
     local plugin_goals_gpg="gpg:sign|gpg:sign-and-deploy-file"
     local plugin_goals_grails="grails:clean|grails:config-directories|grails:console|grails:create-controller|grails:create-domain-class|grails:create-integration-test|grails:create-pom|grails:create-script|grails:create-service|grails:create-tag-lib|grails:create-unit-test|grails:exec|grails:generate-all|grails:generate-controller|grails:generate-views|grails:help|grails:init|grails:init-plugin|grails:install-templates|grails:list-plugins|grails:maven-clean|grails:maven-compile|grails:maven-functional-test|grails:maven-grails-app-war|grails:maven-test|grails:maven-war|grails:package|grails:package-plugin|grails:run-app|grails:run-app-https|grails:run-war|grails:set-version|grails:test-app|grails:upgrade|grails:validate|grails:validate-plugin|grails:war"
     local plugin_goals_gwt="gwt:add-super-sources|gwt:add-test-super-sources|gwt:codeserver|gwt:compile|gwt:devmode|gwt:enforce-encoding|gwt:generate-module|gwt:generate-module-metadata|gwt:help|gwt:package-app|gwt:package-lib|gwt:test"
