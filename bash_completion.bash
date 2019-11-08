@@ -128,7 +128,6 @@ _mvn()
     local common_site_lifecycle="pre-site|site|post-site|site-deploy"
     local common_lifecycle_phases="${common_clean_lifecycle}|${common_default_lifecycle}|${common_site_lifecycle}"
 
-    local plugin_goals_buildplan="buildplan:list|buildplan:list-phase|buildplan:list-plugin"
     local plugin_goals_android="android:apk|android:apklib|android:clean|android:deploy|android:deploy-dependencies|android:dex|android:emulator-start|android:emulator-stop|android:emulator-stop-all|android:generate-sources|android:help|android:instrument|android:manifest-update|android:pull|android:push|android:redeploy|android:run|android:undeploy|android:unpack|android:version-update|android:zipalign|android:devices"
     local plugin_goals_ant="ant:ant|ant:clean"
     local plugin_goals_antrun="antrun:run"
@@ -137,6 +136,7 @@ _mvn()
     local plugin_goals_assembly="assembly:single|assembly:assembly"
     local plugin_goals_build_helper="build-helper:add-resource|build-helper:add-source|build-helper:add-test-resource|build-helper:add-test-source|build-helper:attach-artifact|build-helper:bsh-property|build-helper:cpu-count|build-helper:help|build-helper:local-ip|build-helper:maven-version|build-helper:parse-version|build-helper:regex-properties|build-helper:regex-property|build-helper:released-version|build-helper:remove-project-artifact|build-helper:reserve-network-port|build-helper:timestamp-property"
     local plugin_goals_buildnumber="buildnumber:create|buildnumber:create-timestamp|buildnumber:help|buildnumber:hgchangeset"
+    local plugin_goals_buildplan="buildplan:list|buildplan:list-phase|buildplan:list-plugin"
     local plugin_goals_cargo="cargo:start|cargo:run|cargo:stop|cargo:deploy|cargo:undeploy|cargo:help"
     local plugin_goals_checkstyle="checkstyle:checkstyle|checkstyle:check"
     local plugin_goals_cobertura="cobertura:cobertura"
@@ -171,6 +171,7 @@ _mvn()
     local plugin_goals_nexus_staging="nexus-staging:close|nexus-staging:deploy|nexus-staging:deploy-staged|nexus-staging:deploy-staged-repository|nexus-staging:drop|nexus-staging:help|nexus-staging:promote|nexus-staging:rc-close|nexus-staging:rc-drop|nexus-staging:rc-list|nexus-staging:rc-list-profiles|nexus-staging:rc-promote|nexus-staging:rc-release|nexus-staging:release"
     local plugin_goals_pmd="pmd:pmd|pmd:cpd|pmd:check|pmd:cpd-check"
     local plugin_goals_properties="properties:read-project-properties|properties:write-project-properties|properties:write-active-profile-properties|properties:set-system-properties"
+    local plugin_goals_quarkus="quarkus:add-extension|quarkus:add-extensions|quarkus:analyze-call-tree|quarkus:build|quarkus:create|quarkus:create-extension|quarkus:dev|quarkus:generate-config|quarkus:help|quarkus:list-extensions|quarkus:native-image|quarkus:remote-dev"
     local plugin_goals_release="release:branch|release:clean|release:help|release:perform|release:prepare|release:prepare-with-pom|release:rollback|release:stage|release:update-versions"
     local plugin_goals_repository="repository:bundle-create|repository:bundle-pack|repository:help"
     local plugin_goals_scala="scala:add-source|scala:cc|scala:cctest|scala:compile|scala:console|scala:doc|scala:doc-jar|scala:help|scala:run|scala:script|scala:testCompile"
